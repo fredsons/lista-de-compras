@@ -13,7 +13,7 @@ Este é um projeto de uma aplicação de lista de compras, implementada utilizan
 
 1. Faça um clone deste repositório em sua máquina local.
 2. Abra o arquivo `index.html` em seu navegador.
-3. Na página, você pode digitar o nome de um item na caixa de texto e pressionar Enter ou clicar no botão "Adicionar" para adicioná-lo à lista.
+3. Na página, você pode digitar o nome de um item na caixa de texto e pressionar Enter ou clicar no botão "Salvar item" para adicioná-lo à lista.
 4. Para marcar um item como concluído, clique na caixa de seleção ao lado do item.
 5. Para editar um item existente, clique no ícone de lápis ao lado do item desejado e faça as alterações desejadas. Em seguida, clique no ícone de disquete para salvar as alterações.
 6. Para remover um item da lista, clique no ícone de lixeira ao lado do item.
