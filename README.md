@@ -1,38 +1,27 @@
-# Projeto Lista de Compras - Utilizado no Curso Objetos no JavaScript - Escola Front-End Alura
+# Lista de Compras
 
--Neste arquivo encontram-se modelos de códigos que serão utilizados no decorrer do curso
+Este é um projeto de uma aplicação de lista de compras, implementada utilizando HTML, CSS e JavaScript. Permite adicionar itens à lista, marcar itens como concluídos, editar itens existentes e removê-los.
 
--Código modelo da li "Comprados":
+## Funcionalidades
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" checked class="is-clickable" />
-            <span class="itens-comprados is-size-5"></span>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+- Adicionar novos itens à lista de compras
+- Marcar itens como concluídos
+- Editar itens existentes
+- Remover itens da lista
 
--Código modelo da li "Lista de compras":
+## Como usar
 
-    <li class="item-compra is-flex is-justify-content-space-between" data-value="">
-        <div>
-            <input type="checkbox" class="is-clickable" />
-            <input type="text" class="is-size-5" value=""></input>
-        </div>
-        <div>
-            <i class="fa-solid fa-trash is-clickable deletar"></i>
-        </div>
-    </li>
+1. Faça um clone deste repositório em sua máquina local.
+2. Abra o arquivo `index.html` em seu navegador.
+3. Na página, você pode digitar o nome de um item na caixa de texto e pressionar Enter ou clicar no botão "Adicionar" para adicioná-lo à lista.
+4. Para marcar um item como concluído, clique na caixa de seleção ao lado do item.
+5. Para editar um item existente, clique no ícone de lápis ao lado do item desejado e faça as alterações desejadas. Em seguida, clique no ícone de disquete para salvar as alterações.
+6. Para remover um item da lista, clique no ícone de lixeira ao lado do item.
 
--Input com código refatorado:
+## Contribuição
 
-    <div>
-        <input type="checkbox" checked class="is-clickable" />
-        <span class="itens-comprados is-size-5">${elemento.valor}</span>
-    </div>
+Contribuições são bem-vindas! Se você quiser melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
--Ícones de edição:
+## Licença
 
-    <i class="fa-regular fa-floppy-disk is-clickable"></i><i class="fa-regular is-clickable fa-pen-to-square editar"></i>
+Este projeto está licenciado sob a [MIT License](LICENSE).
